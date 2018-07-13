@@ -1,0 +1,18 @@
+<div class="row">
+	<aside class="col-md-3">
+		<form>
+			<label for="search">Search</label>
+			<input type="text" id="search" class="form-control" value={{search}} oninput={{action (mut search) value="target.value"}}>
+		</form>
+		<ul>
+		{{#each search_results as |champion|}}
+			<li {{action "clickChamp" champion}}>
+				{{highlight-text champion.name search}}
+			</li>
+		{{/each}}
+		</ul>
+	</aside>
+	<main class="col-md-9">
+		{{match-up champion=currentChampion}}
+	</main>
+</div>
