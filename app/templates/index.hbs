@@ -2,11 +2,14 @@
 	<aside class="col-md-3">
 		<form>
 			<label for="search">Search</label>
-			<input type="text" id="search" class="form-control" value={{search}} oninput={{action (mut search) value="target.value"}}>
+			<div class="form-group has-clear">
+				<input type="search" id="search" class="form-control" value={{search}} oninput={{action (mut search) value="target.value"}}>
+				<span class="clear"></span>
+			</div>
 		</form>
-		<ul>
+		<ul class="list-group">
 		{{#each search_results as |champion|}}
-			<li {{action "clickChamp" champion}}>
+			<li class="list-group-item {{if (eq champion currentChampion) "active"}}" {{action "clickChamp" champion}}>
 				{{highlight-text champion.name search}}
 			</li>
 		{{/each}}

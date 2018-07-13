@@ -3,3 +3,51 @@
 mark, .mark {
 	padding: 0;
 }
+
+.list-group-item:not(.active) {
+	cursor: pointer;
+	&:hover, &:active, &:focus {
+		background-color: #eeeeee;
+	}
+}
+
+.has-clear {
+	position: relative;
+}
+.has-clear input {
+	padding-right: 24px;
+}
+.has-clear .clear {
+	position: absolute;
+    top: 0;
+    right: 0;
+    margin: 9px 6px;
+    width: 18.5px;
+    height: 18.5px;
+    background-color: #eeeeee;
+    border-radius: 100%;
+    cursor: pointer;
+	&:before {
+		position: absolute;
+	    content: "";
+	    transform: rotate(45deg);
+	    background: #FFF;
+	    height: 13px;
+	    width: 1px;
+	    left: 9px;
+	    top: 3px;
+	}
+	&:after {
+		position: absolute;
+	    content: "";
+	    transform: rotate(-45deg);
+	    background: #FFF;
+	    height: 13px;
+	    width: 1px;
+	    left: 9px;
+	    top: 3px;
+	}
+	&:hover {
+		background-color: #ff9090;
+	}
+}
