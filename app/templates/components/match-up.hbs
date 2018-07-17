@@ -1,8 +1,85 @@
-<h2>Current Champion:</h2>
 {{#if champion}}
-<p>{{champion.name}}</p>
+<div class="row" style="margin-top: 40px;">
+	<div class="col-md-3 offset-md-2 text-center">
+		<img id="vs-teemo" src="http://ddragon.leagueoflegends.com/cdn/8.13.1/img/champion/Teemo.png">
+		<h3 class="vs-text"><em>Teemo</em></h3>
+	</div>
+	<div class="col-md-2">
+		<h2 class="text-center display-2"><em>VS</em></h2>
+	</div>
+	<div class="col-md-3 text-center">
+		<img id="vs-opponent" src="http://ddragon.leagueoflegends.com/cdn/8.13.1/img/champion/{{champion.key}}.png">
+		<h3><em>{{champion.name}}</em></h3>
+	</div>
+</div>
+<div class="row" style="margin-top: 40px;">
+	<div class="col-md-6">
+		<h3>Champion Description</h3>
+		<p>{{champion.description}}</p>
+	</div>
+	<div class="col-md-6">
+		<h3>Difficulty</h3>
+		<div class="progress">
+			{{#if (eq champion.difficulty 1)}}
+				<div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Easy</div>
+			{{else if (eq champion.difficulty 2)}}
+				<div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Medium</div>
+			{{else if (eq champion.difficulty 3)}}
+				<div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Hard</div>
+			{{else if (eq champion.difficulty 4)}}
+				<div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Very Hard</div>
+			{{else}}
+				<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+			{{/if}}
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-6">
+		<h3>Tips</h3>
+		<ul>
+		{{#each champion.tips as |tip|}}
+			<li>{{tip}}</li>
+		{{/each}}
+		</ul>
+	</div>
+	<div class="col-md-6">
+		<h3>Runes</h3>
+		<div class="row">
+			<div class="col-md-6 text-center">
+				<em>Primary</em>
+				{{#if (eq champion.primary 1)}}
+					<img src="assets/icon-p.png">
+				{{else if (eq champion.primary 2)}}
+					<img src="assets/icon-d.png">
+				{{else if (eq champion.primary 3)}}
+					<img src="assets/icon-s.png">
+				{{else if (eq champion.primary 4)}}
+					<img src="assets/icon-r.png">
+				{{else if (eq champion.primary 5)}}
+					<img src="assets/icon-i.png">
+				{{/if}}
+			</div>
+			<div class="col-md-6 text-center">
+				<em>Secondary</em>
+				{{#if (eq champion.secondary 1)}}
+					<img src="assets/icon-p.png">
+				{{else if (eq champion.secondary 2)}}
+					<img src="assets/icon-d.png">
+				{{else if (eq champion.secondary 3)}}
+					<img src="assets/icon-s.png">
+				{{else if (eq champion.secondary 4)}}
+					<img src="assets/icon-r.png">
+				{{else if (eq champion.secondary 5)}}
+					<img src="assets/icon-i.png">
+				{{/if}}
+			</div>
+		</div>
+	</div>
+</div>
+
 {{else}}
-  <p>Select a champion.</p>
+  <h2 class="text-muted">Select a champion&hellip;</h2>
 {{/if}}
 
 {{yield}}

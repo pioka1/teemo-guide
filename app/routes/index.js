@@ -5,6 +5,7 @@ export default Route.extend({
 		return [
 		{
 			"name": "Brand",
+			"key": "Brand",
 			"description": "AP burst mage with no mobility.",
 			"difficulty": 2,
 			"primary": 3,
@@ -16,6 +17,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Camille",
+			"key": "Camille",
 			"description": "Bruiser top lane that might harass with Comet. Great at setting up ganks.",
 			"difficulty": 2,
 			"primary": 3,
@@ -27,6 +29,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Cassiopeia",
+			"key": "Cassiopeia",
 			"description": "Painful long-distance harass to deny you farming.",
 			"difficulty": 4,
 			"primary": 4,
@@ -38,6 +41,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Darius",
+			"key": "Darius",
 			"description": "A dance of death around his E.",
 			"difficulty": 1,
 			"primary": 3,
@@ -50,6 +54,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Dr. Mundo",
+			"key": "DrMundo",
 			"description": "Tanky sustain champion who can be freely poked. Easy laning phase, but hard midgame.",
 			"difficulty": 1,
 			"primary": 3,
@@ -62,6 +67,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Ekko",
+			"key": "Ekko",
 			"description": "AP burst mage with Thunderlords and pushing power.",
 			"difficulty": 2,
 			"primary": 3,
@@ -73,6 +79,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Fiora",
+			"key": "Fiora",
 			"description": "Grand Duelist of League of Legends. You must counter her split push.",
 			"difficulty": 2,
 			"primary": 4,
@@ -85,6 +92,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Fizz",
+			"key": "Fizz",
 			"description": "AP burster. Destroy him level 1-5. Once he is 6, he will all-in you.",
 			"difficulty": 3,
 			"primary": 3,
@@ -96,6 +104,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Galio",
+			"key": "Galio",
 			"description": "A great teamfighter. Not so great top laner. Split push to death.",
 			"difficulty": 1,
 			"primary": 3,
@@ -107,6 +116,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Gangplank",
+			"key": "Gangplank",
 			"description": "Sustain war. You win by doing more damage midgame.",
 			"difficulty": 2,
 			"primary": 4,
@@ -119,6 +129,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Illaoi",
+			"key": "Illaoi",
 			"description": "Tanky sustain champion. Cannot be safely poked. Scale to midgame.",
 			"difficulty": 2,
 			"primary": 4,
@@ -130,6 +141,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Irelia",
+			"key": "Irelia",
 			"description": "Dance of death around her ranged stun.",
 			"difficulty": 1,
 			"primary": 4,
@@ -141,6 +153,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Jax",
+			"key": "Jax",
 			"description": "Split pushing monster, but predictable laning phase.",
 			"difficulty": 1,
 			"primary": 3,
@@ -152,6 +165,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Jayce",
+			"key": "Jayce",
 			"description": "Ranged poker who can jump in and deal lots of damage once you fall too low.",
 			"difficulty": 3,
 			"primary": 3,
@@ -163,6 +177,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Kennen",
+			"key": "Kennen",
 			"description": "All in potential at level 6 and onwards. Build to survive all-in.",
 			"difficulty": 2,
 			"primary": 4,
@@ -175,6 +190,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Kled",
+			"key": "Kled",
 			"description": "Terrible laner, outstanding team-fighter. You must win laning phase.",
 			"difficulty": 1,
 			"primary": 3,
@@ -186,6 +202,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Malphite",
+			"key": "Malphite",
 			"description": "Has decent harass, but not better than Teemo. Split push strategy.",
 			"difficulty": 1,
 			"primary": 4,
@@ -198,6 +215,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Maokai",
+			"key": "Maokai",
 			"description": "Great teamfight initiator. Poor laning phase. Split push him to death.",
 			"difficulty": 2,
 			"primary": 3,
@@ -209,6 +227,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Mordekaiser",
+			"key": "Mordekaiser",
 			"description": "Shields and heals all day. Poor mobility - ask for ganks and keep your HP topped.",
 			"difficulty": 3,
 			"primary": 3,
@@ -221,6 +240,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Nasus",
+			"key": "Nasus",
 			"description": "AP Nasus will max E, and run AP/pen and cdr runes. Hard to poke.",
 			"difficulty": 2,
 			"primary": 3,
@@ -232,6 +252,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Ornn",
+			"key": "Ornn",
 			"description": "Tanky harass lane, kinda like Sion.",
 			"difficulty": 2,
 			"primary": 4,
@@ -243,6 +264,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Pantheon",
+			"key": "Pantheon",
 			"description": "Direct counter to Teemo. Lane survival is priority.",
 			"difficulty": 4,
 			"primary": 4,
@@ -255,6 +277,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Quinn",
+			"key": "Quinn",
 			"description": "Quinn lives off her Q (blind). Trade when it is down.",
 			"difficulty": 1,
 			"primary": 3,
@@ -267,6 +290,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Renekton",
+			"key": "Renekton",
 			"description": "Extremely powerful levels 1-6 before falling off. Outscale him.",
 			"difficulty": 2,
 			"primary": 4,
@@ -278,6 +302,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Rengar",
+			"key": "Rengar",
 			"description": "HUGE damage output levels 1-3. Survive early and split hard.",
 			"difficulty": 4,
 			"primary": 3,
@@ -289,6 +314,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Riven",
+			"key": "Riven",
 			"description": "All-in potential at level 6 and onwards. Build depending on success.",
 			"difficulty": 2,
 			"primary": 3,
@@ -301,6 +327,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Rumble",
+			"key": "Rumble",
 			"description": "Lane bully with high magic damage. DON'T STAND IN HIS ULT...",
 			"difficulty": 2,
 			"primary": 3,
@@ -313,6 +340,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Shen",
+			"key": "Shen",
 			"description": "Tanky strategic team fighter. Split push strategy.",
 			"difficulty": 1,
 			"primary": 2,
@@ -324,6 +352,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Singed",
+			"key": "Singed",
 			"description": "Lane pressure champion. Counter his pressure with hard poke.",
 			"difficulty": 1,
 			"primary": 3,
@@ -335,6 +364,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Sion",
+			"key": "Sion",
 			"description": "A tanky lane bully with excellent harass and shields. Split push - eliminate Sion from teamfights.",
 			"difficulty": 3,
 			"primary": 4,
@@ -346,6 +376,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Swain",
+			"key": "Swain",
 			"description": "An AP sustain poke champion who rushes Rod of Ages.",
 			"difficulty": 2,
 			"primary": 2,
@@ -358,6 +389,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Tahm Kench",
+			"key": "TahmKench",
 			"description": "Dance of death around his Q. Press The Attack Tahm wins direct engages.",
 			"difficulty": 3,
 			"primary": 4,
@@ -370,6 +402,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Teemo",
+			"key": "Teemo",
 			"description": "Trading Q's all day. Remember Sweeper.",
 			"difficulty": 0,
 			"primary": 3,
@@ -381,6 +414,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Trundle",
+			"key": "Trundle",
 			"description": "His R destroys tanks. Go full damage and dominate lane.",
 			"difficulty": 1,
 			"primary": 3,
@@ -393,6 +427,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Tryndamere",
+			"key": "Tryndamere",
 			"description": "Hold onto your Q at all times and poke. Win game before level 6.",
 			"difficulty": 1,
 			"primary": 3,
@@ -404,6 +439,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Vladimir",
+			"key": "Vladimir",
 			"description": "An annoying sustain AP damage dealer. Play around his empowered Q.",
 			"difficulty": 3,
 			"primary": 4,
@@ -416,6 +452,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Volibear",
+			"key": "Volibear",
 			"description": "A very fast bear. Dance of death around his Q.",
 			"difficulty": 3,
 			"primary": 4,
@@ -428,6 +465,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Wukong",
+			"key": "MonkeyKing",
 			"description": "Classic burstly armor pen champ. All-in potential at level 6.",
 			"difficulty": 2,
 			"primary": 4,
@@ -439,6 +477,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Yorick",
+			"key": "Yorick",
 			"description": "Heavy split pusher. Play around his Q (spawns ghoul graves) and expect engage at 3 ghouls.",
 			"difficulty": 4,
 			"primary": 4,
@@ -451,6 +490,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Zac",
+			"key": "Zac",
 			"description": "Commonly a sustain tank but sometimes played as an AP burster.",
 			"difficulty": 3,
 			"primary": 3,
@@ -463,6 +503,7 @@ export default Route.extend({
 		},
 		{
 			"name": "Zed",
+			"key": "Zed",
 			"description": "Burst assassin. Run Exhaust in lane, Go Inspiration as secondary for Stopwatch.",
 			"difficulty": 2,
 			"primary": 3,

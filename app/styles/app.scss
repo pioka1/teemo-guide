@@ -1,9 +1,14 @@
 @import "ember-bootstrap/bootstrap";
 
+body {
+	background-color: #ffeee0;
+}
 mark, .mark {
 	padding: 0;
 }
-
+.list-group-item, #search {
+	background-color: rgba(255,255,255,0.8);
+}
 .list-group-item:not(.active) {
 	cursor: pointer;
 	&:hover, &:active, &:focus {
@@ -50,4 +55,11 @@ mark, .mark {
 	&:hover {
 		background-color: #ff9090;
 	}
+}
+
+.champ-li-icon {
+	width: 20px;
+	height: 20px;
+    vertical-align: sub;
+    margin-right: 4px;
 }
